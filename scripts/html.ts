@@ -24,7 +24,7 @@ async function html() {
     </html>
   `;
 	fs.writeFile("./public/result/result.html", html, "utf-8", () => {
-		console.log("Ready");
+		console.log("\n\nReady!!!");
 	});
 }
 

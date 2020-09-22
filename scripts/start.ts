@@ -29,7 +29,7 @@ async function start() {
 					"./public/result/result.json",
 					JSON.stringify(streamsResult.reduce((l, a) => [...l, ...a], [])),
 					() => {
-						console.log("Ready");
+						console.log("\n\nReady!!!");
 					}
 				);
 			}

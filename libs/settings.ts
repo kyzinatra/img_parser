@@ -4,7 +4,6 @@ import { writeFile, readFileSync } from "fs";
 import { ask } from "./aks";
 
 function set(resSettings: DeepArray<string>) {
-	console.log(resSettings);
 	resSettings.forEach((a, i) => {
 		switch (i) {
 			case 0:
