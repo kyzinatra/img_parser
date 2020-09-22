@@ -1,6 +1,7 @@
 import { settingsManager } from "../libs/settings";
 
 async function settings() {
-	settingsManager.aksSettings();
+	await settingsManager.aksSettings();
+	console.log("Ready");
 }
 settings();

@@ -28,7 +28,9 @@ async function start() {
 				writeFile(
 					"./public/result/result.json",
 					JSON.stringify(streamsResult.reduce((l, a) => [...l, ...a], [])),
-					() => {}
+					() => {
+						console.log("Ready");
+					}
 				);
 			}
 		});

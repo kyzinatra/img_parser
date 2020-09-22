@@ -20,4 +20,5 @@ async function generate() {
 }
 generate().then(() => {
 	fs.writeFileSync("./public/result/result.json", JSON.stringify(json), "utf-8");
+	console.log("Ready");
 });
