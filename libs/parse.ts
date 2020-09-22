@@ -1,10 +1,6 @@
 import { get } from "./get";
 import { settings } from "..";
-
-export interface IResult {
-	img: string;
-	url: string;
-}
+import { IResult } from "../types/interfaces";
 
 export async function parse(url: string): Promise<IResult | undefined> {
 	const invalidScreen = "//st.prntscr.com/2020/08/01/0537/img/0_173a7b_211be8ff.png";

@@ -1,0 +1,12 @@
+[
+	"How many photos do you what to get? ",
+	[
+		"Do you want to change your settings? (y/n) ",
+		"Mode: random or sequentially, (How should the path to the image be created (in 36-bit format)) ",
+		"Length: [from, to], or number Path length to the image (by default from 4 to 6 (randomly or not, depends on mode)) ",
+		"Filter Bad Paths: (y/n), On 'y' doesn't display an error in the console about an invalid path ",
+		"Log: (y/n), Enables logging of received links and their success status ",
+		"Streams: number, from 1 to 4, that's how many streams program will be use. "
+	],
+	"Do you what to start? (y/n) "
+]

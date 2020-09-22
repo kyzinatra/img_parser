@@ -14,7 +14,6 @@ function getUrl(indent: number): string {
 	if (mode === "sequentially") {
 		const next = parseInt(startsFrom || "0", 36) + 1;
 		settings.startsFrom = next.toString(36);
-		console.log(next);
 		const nextWithIndent = (next + indent).toString(36);
 		if (nextWithIndent.length > length[1]) throw Error("Length limit!"); // TODO: Нормальный лог при ошибке
 

@@ -1,7 +1,7 @@
 import { settings } from "..";
 import { get } from "./get";
-import { IResult, parse } from "./parse";
-
+import { parse } from "./parse";
+import { IResult } from "../types/interfaces";
 async function setStream(times: number, index: number): Promise<IResult[]> {
 	let result: IResult[] = [];
 
