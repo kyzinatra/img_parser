@@ -33,7 +33,7 @@ This script asks for all settings in turn and writes them to a file (./public/se
 
 
 ```sh
-  num run html
+  npm run html
 ```
 
 Converts the entire result to an html gallery (./public/result/result.html)
