@@ -1,0 +1,27 @@
+{
+	"name": "img_parser",
+	"version": "1.0.0",
+	"description": "img parser",
+	"main": "index.ts",
+	"scripts": {
+		"start": "ts-node ./scripts/start.ts",
+		"html": "ts-node ./scripts/html.ts",
+		"settings": "ts-node ./scripts/settings.ts",
+		"tobase64": "ts-node ./scripts/tobase64.ts"
+	},
+	"keywords": [
+		"js",
+		"ts",
+		"parser",
+		"nodejs"
+	],
+	"dependencies": {
+		"@types/jsonminify": "^0.4.1",
+		"cheerio": "^1.0.0-rc.3",
+		"got": "^11.7.0",
+		"jsonminify": "^0.4.1",
+		"request": "^2.88.2"
+	},
+	"author": "Kyzinatra",
+	"license": "ISC"
+}
