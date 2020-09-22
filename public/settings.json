@@ -1,9 +1,10 @@
 {
-	"mode": "random", // ["random", "sequentially"] (How should the path to the image be created (in 36-bit format))
-	"length": [5, 6], // Path length to the image (by default from 4 to 6 (randomly or not, depends on mode))
+	"mode": "sequentially", // ["random", "sequentially"] (How should the path to the image be created (in 36-bit format))
+	"length": 6, // Path length to the image (by default from 4 to 6 (randomly or not, depends on mode))
 	"filterBadPaths": true, // On true doesn't display an error in the console about an invalid path
+	"log": true, // Enables logging of received links and their success status
 	"askSettings": true, // if false, the program will not ask the user for settings, but will take them from here
 	"startsFrom": null, // Indicates which path the program should start with (when mode: sequentially!)
-	"streams": 1 // from 1 to +Infinity that's how many streams program will be use.
+	"streams": 2 // from 1 to +Infinity that's how many streams program will be use.
 	//! !!!Warning do not use more than 4 streams!!!
 }

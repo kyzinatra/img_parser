@@ -16,12 +16,17 @@
 		"nodejs"
 	],
 	"dependencies": {
-		"@types/jsonminify": "^0.4.1",
 		"cheerio": "^1.0.0-rc.3",
 		"got": "^11.7.0",
 		"jsonminify": "^0.4.1",
 		"request": "^2.88.2"
 	},
 	"author": "Kyzinatra",
-	"license": "ISC"
+	"license": "ISC",
+	"devDependencies": {
+		"@types/request": "^2.48.5",
+    "@types/jsonminify": "^0.4.1",
+		"@types/cheerio": "^0.22.21"
+    
+	}
 }
